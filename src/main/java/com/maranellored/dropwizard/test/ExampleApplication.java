@@ -23,7 +23,8 @@ public class ExampleApplication extends Application<Configuration> {
     JenkinsServer jenkins =
         new JenkinsServer(new URI("https://test.jenkins.com"), "user", "password");
 
-    environment.jersey().register(jenkins);
+    // This code does nothing
+    //environment.jersey().register(jenkins);
   }
 
 }
