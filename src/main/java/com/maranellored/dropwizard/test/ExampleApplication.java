@@ -24,7 +24,7 @@ public class ExampleApplication extends Application<Configuration> {
         new JenkinsServer(new URI("https://test.jenkins.com"), "user", "password");
 
     // This code does nothing
-    //environment.jersey().register(jenkins);
+    environment.jersey().register(jenkins);
   }
 
 }
